@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import Social from './components/Social/Social'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -24,7 +25,8 @@ const App = () => {
       </main>
 
       <ScrollToTop />
-      <Footer />
+      {/* <Footer /> */}
+      <Social/>
     </div>
   )
 }

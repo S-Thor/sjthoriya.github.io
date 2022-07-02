@@ -1,0 +1,30 @@
+.mainSocial {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialTitle {
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.iconDiv {
+    /* font-size: 20px; */
+    color: var(--clr-primary);
+    padding: 0 0 0.3em 0;
+    position: relative;
+    color: var(--clr-fg);
+    /* border: 1px solid red; */
+    width: 20%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    margin: 10px;
+}

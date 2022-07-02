@@ -26,7 +26,7 @@ const About = () => {
           </a>
         )}
 
-        {social && (
+        {/* {social && (
           <>
             {social.github && (
               <a
@@ -48,7 +48,7 @@ const About = () => {
               </a>
             )}
           </>
-        )}
+        )} */}
       </div>
     </div>
   )
